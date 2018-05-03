@@ -8,20 +8,108 @@
 
 /* Begin PBXBuildFile section */
 		0C506E582097014500E67227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C506E572097014500E67227 /* AppDelegate.swift */; };
-		0C506E5A2097014500E67227 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C506E592097014500E67227 /* ViewController.swift */; };
-		0C506E5D2097014500E67227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C506E5B2097014500E67227 /* Main.storyboard */; };
 		0C506E5F2097014500E67227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C506E5E2097014500E67227 /* Assets.xcassets */; };
 		0C506E622097014500E67227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C506E602097014500E67227 /* LaunchScreen.storyboard */; };
+		0C506E722097027400E67227 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C506E712097027400E67227 /* Coordinator.swift */; };
+		0C506E742097029900E67227 /* DeepLinkOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C506E732097029900E67227 /* DeepLinkOption.swift */; };
+		0C506E76209702F400E67227 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C506E75209702F300E67227 /* Presentable.swift */; };
+		0C506E782097035D00E67227 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C506E772097035D00E67227 /* Routable.swift */; };
+		0C506E7A2097039900E67227 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C506E792097039900E67227 /* BaseCoordinator.swift */; };
+		0C506E7E2097045900E67227 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C506E7D2097045900E67227 /* NavigationRouter.swift */; };
+		0CAABB322098F13C001E25B6 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB312098F13C001E25B6 /* AppCoordinator.swift */; };
+		0CAABB382098F1C3001E25B6 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB372098F1C3001E25B6 /* AuthService.swift */; };
+		0CAABB3D2098F349001E25B6 /* AppCoordinatorAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB3C2098F349001E25B6 /* AppCoordinatorAssembly.swift */; };
+		0CAABB3F2098F37A001E25B6 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB3E2098F37A001E25B6 /* AppRouter.swift */; };
+		0CAABB412098F423001E25B6 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB402098F423001E25B6 /* MainCoordinator.swift */; };
+		0CAABB432098F42A001E25B6 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB422098F42A001E25B6 /* AuthCoordinator.swift */; };
+		0CAABB452098F432001E25B6 /* MainCoordinatorAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB442098F432001E25B6 /* MainCoordinatorAssembly.swift */; };
+		0CAABB472098F43E001E25B6 /* AuthCoordinatorAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB462098F43E001E25B6 /* AuthCoordinatorAssembly.swift */; };
+		0CAABB492098F44D001E25B6 /* ServicesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB482098F44D001E25B6 /* ServicesAssembly.swift */; };
+		0CAABB4C2098F4A2001E25B6 /* AuthStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB4B2098F4A2001E25B6 /* AuthStorage.swift */; };
+		0CAABB4E2098F88E001E25B6 /* AppDelegate+Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB4D2098F88E001E25B6 /* AppDelegate+Coordinator.swift */; };
+		0CAABB512098FAD4001E25B6 /* CEDeepLinkOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB502098FAD4001E25B6 /* CEDeepLinkOption.swift */; };
+		0CAABB542098FCD1001E25B6 /* AuthModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB532098FCD1001E25B6 /* AuthModule.swift */; };
+		0CAABB592098FCEC001E25B6 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB582098FCEC001E25B6 /* AuthView.swift */; };
+		0CAABB5B2098FD8C001E25B6 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB5A2098FD8C001E25B6 /* AuthViewController.swift */; };
+		0CAABB5F2098FDFA001E25B6 /* ViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB5E2098FDFA001E25B6 /* ViewHolder.swift */; };
+		0CAABB612098FE36001E25B6 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB602098FE36001E25B6 /* AuthViewModel.swift */; };
+		0CAABB64209901B3001E25B6 /* AuthModuleAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB63209901B3001E25B6 /* AuthModuleAssembly.swift */; };
+		0CAABB672099DA6C001E25B6 /* ItemsListModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB662099DA6C001E25B6 /* ItemsListModule.swift */; };
+		0CAABB6C2099DA94001E25B6 /* ItemsListModuleAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB6B2099DA94001E25B6 /* ItemsListModuleAssembly.swift */; };
+		0CAABB6E2099DAC7001E25B6 /* ItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB6D2099DAC7001E25B6 /* ItemsListView.swift */; };
+		0CAABB702099DB3E001E25B6 /* ItemsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB6F2099DB3E001E25B6 /* ItemsListViewModel.swift */; };
+		0CAABB722099DB48001E25B6 /* ItemsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB712099DB48001E25B6 /* ItemsListViewController.swift */; };
+		0CAABB752099DB71001E25B6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB742099DB71001E25B6 /* Item.swift */; };
+		0CAABB772099DC10001E25B6 /* ItemsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB762099DC10001E25B6 /* ItemsService.swift */; };
+		0CAABB7A2099E351001E25B6 /* ItemCreationModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB792099E351001E25B6 /* ItemCreationModule.swift */; };
+		0CAABB7D2099E36E001E25B6 /* ItemCreationModuleAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB7C2099E36E001E25B6 /* ItemCreationModuleAssembly.swift */; };
+		0CAABB822099E389001E25B6 /* ItemCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB812099E389001E25B6 /* ItemCreationView.swift */; };
+		0CAABB842099E390001E25B6 /* ItemCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB832099E390001E25B6 /* ItemCreationViewController.swift */; };
+		0CAABB862099E398001E25B6 /* ItemCreationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB852099E398001E25B6 /* ItemCreationViewModel.swift */; };
+		0CAABB882099EDB3001E25B6 /* ItemCreationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB872099EDB3001E25B6 /* ItemCreationCoordinator.swift */; };
+		0CAABB8A2099EDC3001E25B6 /* ItemCreationCoordinatorAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB892099EDC3001E25B6 /* ItemCreationCoordinatorAssembly.swift */; };
+		0CAABB8C2099FD72001E25B6 /* Presentable+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB8B2099FD72001E25B6 /* Presentable+Navigation.swift */; };
+		0CAABB8F209B8B79001E25B6 /* ItemDetailsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB8E209B8B79001E25B6 /* ItemDetailsModule.swift */; };
+		0CAABB91209B8BA2001E25B6 /* ItemDetailsModuleAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB90209B8BA2001E25B6 /* ItemDetailsModuleAssembly.swift */; };
+		0CAABB96209B8C21001E25B6 /* ItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB95209B8C21001E25B6 /* ItemDetailsView.swift */; };
+		0CAABB98209B8C29001E25B6 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB97209B8C29001E25B6 /* ItemDetailsViewController.swift */; };
+		0CAABB9A209B8C39001E25B6 /* ItemDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAABB99209B8C39001E25B6 /* ItemDetailsViewModel.swift */; };
+		5F6219355C3F90D3E26A817B /* libPods-CoordinatorExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D90A89E1B11200ACDF6DB9F /* libPods-CoordinatorExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C506E542097014500E67227 /* CoordinatorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C506E572097014500E67227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C506E592097014500E67227 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0C506E5C2097014500E67227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C506E5E2097014500E67227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C506E612097014500E67227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C506E632097014500E67227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C506E712097027400E67227 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		0C506E732097029900E67227 /* DeepLinkOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkOption.swift; sourceTree = "<group>"; };
+		0C506E75209702F300E67227 /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		0C506E772097035D00E67227 /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		0C506E792097039900E67227 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		0C506E7D2097045900E67227 /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
+		0CAABB312098F13C001E25B6 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		0CAABB372098F1C3001E25B6 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		0CAABB3C2098F349001E25B6 /* AppCoordinatorAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorAssembly.swift; sourceTree = "<group>"; };
+		0CAABB3E2098F37A001E25B6 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		0CAABB402098F423001E25B6 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		0CAABB422098F42A001E25B6 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		0CAABB442098F432001E25B6 /* MainCoordinatorAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorAssembly.swift; sourceTree = "<group>"; };
+		0CAABB462098F43E001E25B6 /* AuthCoordinatorAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinatorAssembly.swift; sourceTree = "<group>"; };
+		0CAABB482098F44D001E25B6 /* ServicesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesAssembly.swift; sourceTree = "<group>"; };
+		0CAABB4B2098F4A2001E25B6 /* AuthStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStorage.swift; sourceTree = "<group>"; };
+		0CAABB4D2098F88E001E25B6 /* AppDelegate+Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Coordinator.swift"; sourceTree = "<group>"; };
+		0CAABB502098FAD4001E25B6 /* CEDeepLinkOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEDeepLinkOption.swift; sourceTree = "<group>"; };
+		0CAABB532098FCD1001E25B6 /* AuthModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModule.swift; sourceTree = "<group>"; };
+		0CAABB582098FCEC001E25B6 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		0CAABB5A2098FD8C001E25B6 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		0CAABB5E2098FDFA001E25B6 /* ViewHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHolder.swift; sourceTree = "<group>"; };
+		0CAABB602098FE36001E25B6 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		0CAABB63209901B3001E25B6 /* AuthModuleAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModuleAssembly.swift; sourceTree = "<group>"; };
+		0CAABB662099DA6C001E25B6 /* ItemsListModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListModule.swift; sourceTree = "<group>"; };
+		0CAABB6B2099DA94001E25B6 /* ItemsListModuleAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListModuleAssembly.swift; sourceTree = "<group>"; };
+		0CAABB6D2099DAC7001E25B6 /* ItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListView.swift; sourceTree = "<group>"; };
+		0CAABB6F2099DB3E001E25B6 /* ItemsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListViewModel.swift; sourceTree = "<group>"; };
+		0CAABB712099DB48001E25B6 /* ItemsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListViewController.swift; sourceTree = "<group>"; };
+		0CAABB742099DB71001E25B6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0CAABB762099DC10001E25B6 /* ItemsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsService.swift; sourceTree = "<group>"; };
+		0CAABB792099E351001E25B6 /* ItemCreationModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCreationModule.swift; sourceTree = "<group>"; };
+		0CAABB7C2099E36E001E25B6 /* ItemCreationModuleAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCreationModuleAssembly.swift; sourceTree = "<group>"; };
+		0CAABB812099E389001E25B6 /* ItemCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCreationView.swift; sourceTree = "<group>"; };
+		0CAABB832099E390001E25B6 /* ItemCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCreationViewController.swift; sourceTree = "<group>"; };
+		0CAABB852099E398001E25B6 /* ItemCreationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCreationViewModel.swift; sourceTree = "<group>"; };
+		0CAABB872099EDB3001E25B6 /* ItemCreationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCreationCoordinator.swift; sourceTree = "<group>"; };
+		0CAABB892099EDC3001E25B6 /* ItemCreationCoordinatorAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCreationCoordinatorAssembly.swift; sourceTree = "<group>"; };
+		0CAABB8B2099FD72001E25B6 /* Presentable+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Presentable+Navigation.swift"; sourceTree = "<group>"; };
+		0CAABB8E209B8B79001E25B6 /* ItemDetailsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsModule.swift; sourceTree = "<group>"; };
+		0CAABB90209B8BA2001E25B6 /* ItemDetailsModuleAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsModuleAssembly.swift; sourceTree = "<group>"; };
+		0CAABB95209B8C21001E25B6 /* ItemDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsView.swift; sourceTree = "<group>"; };
+		0CAABB97209B8C29001E25B6 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		0CAABB99209B8C39001E25B6 /* ItemDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewModel.swift; sourceTree = "<group>"; };
+		8D90A89E1B11200ACDF6DB9F /* libPods-CoordinatorExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoordinatorExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4322504D4287A54A061F9DB /* Pods-CoordinatorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoordinatorExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoordinatorExample/Pods-CoordinatorExample.release.xcconfig"; sourceTree = "<group>"; };
+		B391B5DD98361F650B96D676 /* Pods-CoordinatorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoordinatorExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoordinatorExample/Pods-CoordinatorExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F6219355C3F90D3E26A817B /* libPods-CoordinatorExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +129,8 @@
 			children = (
 				0C506E562097014500E67227 /* CoordinatorExample */,
 				0C506E552097014500E67227 /* Products */,
+				82A95A8EBEB545867EC81C11 /* Pods */,
+				52BD9685851D9FCE276BE018 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +145,369 @@
 		0C506E562097014500E67227 /* CoordinatorExample */ = {
 			isa = PBXGroup;
 			children = (
-				0C506E572097014500E67227 /* AppDelegate.swift */,
-				0C506E592097014500E67227 /* ViewController.swift */,
-				0C506E5B2097014500E67227 /* Main.storyboard */,
+				0C506E6E209701B700E67227 /* Classes */,
+				0C506E692097015C00E67227 /* Resources */,
+				0C506E6B2097017100E67227 /* Supporting Files */,
+			);
+			path = CoordinatorExample;
+			sourceTree = "<group>";
+		};
+		0C506E692097015C00E67227 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C506E6A2097016300E67227 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0C506E6A2097016300E67227 /* Images */ = {
+			isa = PBXGroup;
+			children = (
 				0C506E5E2097014500E67227 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0C506E6B2097017100E67227 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				0C506E602097014500E67227 /* LaunchScreen.storyboard */,
 				0C506E632097014500E67227 /* Info.plist */,
 			);
-			path = CoordinatorExample;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C506E6C209701A000E67227 /* Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB392098F32C001E25B6 /* Flows */,
+				0C506E702097022B00E67227 /* Coordinator */,
+				0CAABB5C2098FDCE001E25B6 /* Helpers */,
+			);
+			path = "Presentation Layer";
+			sourceTree = "<group>";
+		};
+		0C506E6D209701A500E67227 /* Application Layer */ = {
+			isa = PBXGroup;
+			children = (
+				0C506E572097014500E67227 /* AppDelegate.swift */,
+				0CAABB482098F44D001E25B6 /* ServicesAssembly.swift */,
+				0CAABB4D2098F88E001E25B6 /* AppDelegate+Coordinator.swift */,
+				0CAABB502098FAD4001E25B6 /* CEDeepLinkOption.swift */,
+			);
+			path = "Application Layer";
+			sourceTree = "<group>";
+		};
+		0C506E6E209701B700E67227 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C506E6F209701CA00E67227 /* Model */,
+				0C506E6D209701A500E67227 /* Application Layer */,
+				0C506E6C209701A000E67227 /* Presentation Layer */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0C506E6F209701CA00E67227 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB732099DB63001E25B6 /* Entities */,
+				0CAABB4A2098F493001E25B6 /* Storage */,
+				0CAABB362098F1B9001E25B6 /* Services */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C506E702097022B00E67227 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				0C506E7B209703A300E67227 /* Protocols */,
+				0C506E7C209703A800E67227 /* Implementations */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		0C506E7B209703A300E67227 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0C506E712097027400E67227 /* Coordinator.swift */,
+				0C506E732097029900E67227 /* DeepLinkOption.swift */,
+				0C506E75209702F300E67227 /* Presentable.swift */,
+				0C506E772097035D00E67227 /* Routable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0C506E7C209703A800E67227 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				0C506E792097039900E67227 /* BaseCoordinator.swift */,
+				0CAABB8B2099FD72001E25B6 /* Presentable+Navigation.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		0CAABB352098F1A8001E25B6 /* AppFlow */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB312098F13C001E25B6 /* AppCoordinator.swift */,
+				0CAABB3C2098F349001E25B6 /* AppCoordinatorAssembly.swift */,
+			);
+			path = AppFlow;
+			sourceTree = "<group>";
+		};
+		0CAABB362098F1B9001E25B6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB372098F1C3001E25B6 /* AuthService.swift */,
+				0CAABB762099DC10001E25B6 /* ItemsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0CAABB392098F32C001E25B6 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB4F2098F967001E25B6 /* Routers */,
+				0CAABB352098F1A8001E25B6 /* AppFlow */,
+				0CAABB3A2098F332001E25B6 /* AuthFlow */,
+				0CAABB3B2098F335001E25B6 /* MainFlow */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		0CAABB3A2098F332001E25B6 /* AuthFlow */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB522098FCC7001E25B6 /* AuthModule */,
+				0CAABB422098F42A001E25B6 /* AuthCoordinator.swift */,
+				0CAABB462098F43E001E25B6 /* AuthCoordinatorAssembly.swift */,
+			);
+			path = AuthFlow;
+			sourceTree = "<group>";
+		};
+		0CAABB3B2098F335001E25B6 /* MainFlow */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB7B2099E353001E25B6 /* ItemCreationFlow */,
+				0CAABB652099DA60001E25B6 /* ItemsListModule */,
+				0CAABB402098F423001E25B6 /* MainCoordinator.swift */,
+				0CAABB442098F432001E25B6 /* MainCoordinatorAssembly.swift */,
+			);
+			path = MainFlow;
+			sourceTree = "<group>";
+		};
+		0CAABB4A2098F493001E25B6 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB4B2098F4A2001E25B6 /* AuthStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		0CAABB4F2098F967001E25B6 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB3E2098F37A001E25B6 /* AppRouter.swift */,
+				0C506E7D2097045900E67227 /* NavigationRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		0CAABB522098FCC7001E25B6 /* AuthModule */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB572098FCE1001E25B6 /* ViewModel */,
+				0CAABB562098FCDD001E25B6 /* ViewController */,
+				0CAABB552098FCD3001E25B6 /* View */,
+				0CAABB532098FCD1001E25B6 /* AuthModule.swift */,
+				0CAABB63209901B3001E25B6 /* AuthModuleAssembly.swift */,
+			);
+			path = AuthModule;
+			sourceTree = "<group>";
+		};
+		0CAABB552098FCD3001E25B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB582098FCEC001E25B6 /* AuthView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0CAABB562098FCDD001E25B6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB5A2098FD8C001E25B6 /* AuthViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0CAABB572098FCE1001E25B6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB602098FE36001E25B6 /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0CAABB5C2098FDCE001E25B6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB5D2098FDE8001E25B6 /* ViewHolder */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0CAABB5D2098FDE8001E25B6 /* ViewHolder */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB5E2098FDFA001E25B6 /* ViewHolder.swift */,
+			);
+			path = ViewHolder;
+			sourceTree = "<group>";
+		};
+		0CAABB652099DA60001E25B6 /* ItemsListModule */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB6A2099DA86001E25B6 /* ViewModel */,
+				0CAABB692099DA80001E25B6 /* ViewController */,
+				0CAABB682099DA6F001E25B6 /* View */,
+				0CAABB662099DA6C001E25B6 /* ItemsListModule.swift */,
+				0CAABB6B2099DA94001E25B6 /* ItemsListModuleAssembly.swift */,
+			);
+			path = ItemsListModule;
+			sourceTree = "<group>";
+		};
+		0CAABB682099DA6F001E25B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB6D2099DAC7001E25B6 /* ItemsListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0CAABB692099DA80001E25B6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB712099DB48001E25B6 /* ItemsListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0CAABB6A2099DA86001E25B6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB6F2099DB3E001E25B6 /* ItemsListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0CAABB732099DB63001E25B6 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB742099DB71001E25B6 /* Item.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		0CAABB782099E18C001E25B6 /* ItemCreationModule */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB7F2099E375001E25B6 /* ViewModel */,
+				0CAABB802099E379001E25B6 /* ViewController */,
+				0CAABB7E2099E370001E25B6 /* View */,
+				0CAABB792099E351001E25B6 /* ItemCreationModule.swift */,
+				0CAABB7C2099E36E001E25B6 /* ItemCreationModuleAssembly.swift */,
+			);
+			path = ItemCreationModule;
+			sourceTree = "<group>";
+		};
+		0CAABB7B2099E353001E25B6 /* ItemCreationFlow */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB8D209B8B6A001E25B6 /* ItemDetailsModule */,
+				0CAABB782099E18C001E25B6 /* ItemCreationModule */,
+				0CAABB872099EDB3001E25B6 /* ItemCreationCoordinator.swift */,
+				0CAABB892099EDC3001E25B6 /* ItemCreationCoordinatorAssembly.swift */,
+			);
+			path = ItemCreationFlow;
+			sourceTree = "<group>";
+		};
+		0CAABB7E2099E370001E25B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB812099E389001E25B6 /* ItemCreationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0CAABB7F2099E375001E25B6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB852099E398001E25B6 /* ItemCreationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0CAABB802099E379001E25B6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB832099E390001E25B6 /* ItemCreationViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0CAABB8D209B8B6A001E25B6 /* ItemDetailsModule */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB94209B8C13001E25B6 /* ViewModel */,
+				0CAABB93209B8BDD001E25B6 /* ViewController */,
+				0CAABB92209B8BDA001E25B6 /* View */,
+				0CAABB8E209B8B79001E25B6 /* ItemDetailsModule.swift */,
+				0CAABB90209B8BA2001E25B6 /* ItemDetailsModuleAssembly.swift */,
+			);
+			path = ItemDetailsModule;
+			sourceTree = "<group>";
+		};
+		0CAABB92209B8BDA001E25B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB95209B8C21001E25B6 /* ItemDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0CAABB93209B8BDD001E25B6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB97209B8C29001E25B6 /* ItemDetailsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0CAABB94209B8C13001E25B6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0CAABB99209B8C39001E25B6 /* ItemDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		52BD9685851D9FCE276BE018 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D90A89E1B11200ACDF6DB9F /* libPods-CoordinatorExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82A95A8EBEB545867EC81C11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B391B5DD98361F650B96D676 /* Pods-CoordinatorExample.debug.xcconfig */,
+				A4322504D4287A54A061F9DB /* Pods-CoordinatorExample.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +517,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C506E662097014500E67227 /* Build configuration list for PBXNativeTarget "CoordinatorExample" */;
 			buildPhases = (
+				494FBF751F6BBD64414558B0 /* [CP] Check Pods Manifest.lock */,
 				0C506E502097014500E67227 /* Sources */,
 				0C506E512097014500E67227 /* Frameworks */,
 				0C506E522097014500E67227 /* Resources */,
@@ -125,33 +572,88 @@
 			files = (
 				0C506E622097014500E67227 /* LaunchScreen.storyboard in Resources */,
 				0C506E5F2097014500E67227 /* Assets.xcassets in Resources */,
-				0C506E5D2097014500E67227 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		494FBF751F6BBD64414558B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoordinatorExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C506E502097014500E67227 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C506E5A2097014500E67227 /* ViewController.swift in Sources */,
+				0CAABB772099DC10001E25B6 /* ItemsService.swift in Sources */,
+				0CAABB822099E389001E25B6 /* ItemCreationView.swift in Sources */,
+				0CAABB5B2098FD8C001E25B6 /* AuthViewController.swift in Sources */,
+				0C506E722097027400E67227 /* Coordinator.swift in Sources */,
+				0CAABB432098F42A001E25B6 /* AuthCoordinator.swift in Sources */,
+				0CAABB7D2099E36E001E25B6 /* ItemCreationModuleAssembly.swift in Sources */,
+				0CAABB4C2098F4A2001E25B6 /* AuthStorage.swift in Sources */,
+				0CAABB412098F423001E25B6 /* MainCoordinator.swift in Sources */,
+				0CAABB4E2098F88E001E25B6 /* AppDelegate+Coordinator.swift in Sources */,
+				0CAABB752099DB71001E25B6 /* Item.swift in Sources */,
+				0C506E7E2097045900E67227 /* NavigationRouter.swift in Sources */,
+				0C506E7A2097039900E67227 /* BaseCoordinator.swift in Sources */,
+				0CAABB492098F44D001E25B6 /* ServicesAssembly.swift in Sources */,
+				0CAABB452098F432001E25B6 /* MainCoordinatorAssembly.swift in Sources */,
+				0CAABB382098F1C3001E25B6 /* AuthService.swift in Sources */,
+				0CAABB702099DB3E001E25B6 /* ItemsListViewModel.swift in Sources */,
+				0CAABB512098FAD4001E25B6 /* CEDeepLinkOption.swift in Sources */,
+				0CAABB672099DA6C001E25B6 /* ItemsListModule.swift in Sources */,
+				0CAABB6C2099DA94001E25B6 /* ItemsListModuleAssembly.swift in Sources */,
+				0CAABB3D2098F349001E25B6 /* AppCoordinatorAssembly.swift in Sources */,
+				0C506E76209702F400E67227 /* Presentable.swift in Sources */,
+				0CAABB722099DB48001E25B6 /* ItemsListViewController.swift in Sources */,
+				0CAABB7A2099E351001E25B6 /* ItemCreationModule.swift in Sources */,
+				0CAABB322098F13C001E25B6 /* AppCoordinator.swift in Sources */,
+				0CAABB882099EDB3001E25B6 /* ItemCreationCoordinator.swift in Sources */,
+				0CAABB592098FCEC001E25B6 /* AuthView.swift in Sources */,
+				0CAABB3F2098F37A001E25B6 /* AppRouter.swift in Sources */,
+				0CAABB8F209B8B79001E25B6 /* ItemDetailsModule.swift in Sources */,
+				0CAABB5F2098FDFA001E25B6 /* ViewHolder.swift in Sources */,
+				0CAABB542098FCD1001E25B6 /* AuthModule.swift in Sources */,
+				0CAABB842099E390001E25B6 /* ItemCreationViewController.swift in Sources */,
+				0C506E742097029900E67227 /* DeepLinkOption.swift in Sources */,
+				0CAABB9A209B8C39001E25B6 /* ItemDetailsViewModel.swift in Sources */,
+				0CAABB96209B8C21001E25B6 /* ItemDetailsView.swift in Sources */,
+				0CAABB64209901B3001E25B6 /* AuthModuleAssembly.swift in Sources */,
+				0CAABB6E2099DAC7001E25B6 /* ItemsListView.swift in Sources */,
+				0CAABB612098FE36001E25B6 /* AuthViewModel.swift in Sources */,
+				0CAABB8A2099EDC3001E25B6 /* ItemCreationCoordinatorAssembly.swift in Sources */,
 				0C506E582097014500E67227 /* AppDelegate.swift in Sources */,
+				0CAABB98209B8C29001E25B6 /* ItemDetailsViewController.swift in Sources */,
+				0CAABB472098F43E001E25B6 /* AuthCoordinatorAssembly.swift in Sources */,
+				0C506E782097035D00E67227 /* Routable.swift in Sources */,
+				0CAABB91209B8BA2001E25B6 /* ItemDetailsModuleAssembly.swift in Sources */,
+				0CAABB862099E398001E25B6 /* ItemCreationViewModel.swift in Sources */,
+				0CAABB8C2099FD72001E25B6 /* Presentable+Navigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0C506E5B2097014500E67227 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C506E5C2097014500E67227 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0C506E602097014500E67227 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,31 +774,33 @@
 		};
 		0C506E672097014500E67227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B391B5DD98361F650B96D676 /* Pods-CoordinatorExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DP6JL9R354;
-				INFOPLIST_FILE = CoordinatorExample/Info.plist;
+				DEVELOPMENT_TEAM = SNLH793PXA;
+				INFOPLIST_FILE = "$(SRCROOT)/CoordinatorExample/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rychkovdev.CoordinatorExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rychkovdev.CoordEx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0C506E682097014500E67227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4322504D4287A54A061F9DB /* Pods-CoordinatorExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DP6JL9R354;
-				INFOPLIST_FILE = CoordinatorExample/Info.plist;
+				DEVELOPMENT_TEAM = SNLH793PXA;
+				INFOPLIST_FILE = "$(SRCROOT)/CoordinatorExample/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rychkovdev.CoordinatorExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rychkovdev.CoordEx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
