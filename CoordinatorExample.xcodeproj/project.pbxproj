@@ -291,6 +291,7 @@
 			children = (
 				0CAABB7B2099E353001E25B6 /* ItemCreationFlow */,
 				0CAABB652099DA60001E25B6 /* ItemsListModule */,
+				0CAABB8D209B8B6A001E25B6 /* ItemDetailsModule */,
 				0CAABB402098F423001E25B6 /* MainCoordinator.swift */,
 				0CAABB442098F432001E25B6 /* MainCoordinatorAssembly.swift */,
 			);
@@ -425,7 +426,6 @@
 		0CAABB7B2099E353001E25B6 /* ItemCreationFlow */ = {
 			isa = PBXGroup;
 			children = (
-				0CAABB8D209B8B6A001E25B6 /* ItemDetailsModule */,
 				0CAABB782099E18C001E25B6 /* ItemCreationModule */,
 				0CAABB872099EDB3001E25B6 /* ItemCreationCoordinator.swift */,
 				0CAABB892099EDC3001E25B6 /* ItemCreationCoordinatorAssembly.swift */,
