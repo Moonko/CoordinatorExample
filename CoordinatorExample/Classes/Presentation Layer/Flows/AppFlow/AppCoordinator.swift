@@ -29,6 +29,7 @@ final class AppCoordinatorImpl: BaseCoordinator, AppCoordinator {
     private func runMainFlow(with deepLink: DeepLinkOption?) {
         let coordinator = assembler.resolver.resolve(MainCoordinator.self, argument: assembler)!
         coordinator.onLogout = { [weak coordinator, weak self] in
+            self?.router.setRootModule(nil)
             self?.removeDependency(coordinator)
             self?.runAuthFlow()
         }

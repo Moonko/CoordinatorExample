@@ -22,7 +22,10 @@ final class AppRouter: Routable {
     }
 
     func setRootModule(_ module: Presentable?, animated: Bool) {
-        guard let toController = module?.toPresent else { return }
+        guard let toController = module?.toPresent else {
+            (rootController as? UINavigationController)?.viewControllers = []
+            return
+        }
         if let fromController = rootController, animated {
             let snapshot = fromController.view.snapshotView(afterScreenUpdates: true)!
             toController.view.addSubview(snapshot)
